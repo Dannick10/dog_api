@@ -1,2 +1,4 @@
 # dog_api
- API usando DOG
+Consumindo API
+API Utilizada: https://thedogapi.com
+
