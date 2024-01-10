@@ -1,0 +1,126 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&family=Outfit:wght@100;300;500;700&family=Slabo+27px&display=swap');
+
+:root{
+    --font: 'Roboto',arial;
+    --font1: 'Dancing Script', cursive;
+    --font2: 'Outfit', sans-serif;
+    --font3: 'Slabo 27px', serif;
+
+    --color: #FFCBA7;
+    --color1:#893221;
+    --color2:#361E1A;
+    --color3:#9F4F2E;
+    --color4:#357F5C;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(img/hand-drawn-pet-grooming-pattern-design_23-2150036210.jpg);
+    height: 100vh;
+    position: relative;
+}
+
+#dog{
+   height: 100vh;
+}
+
+#dog,.info{
+    width:80vw;
+    height: 90vh;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 3px 3px 3px rgba(39, 24, 1, 0.4);
+}
+
+h2{
+    font-family: var(--font1);
+    font-size: 2em;
+    color: #FFCBA7;
+}
+
+.img{
+    text-align: center;
+}
+
+i{
+    color: var(--color);
+    position: absolute;
+    top: -30px;
+    left: 0px;
+    font-size: 4em;
+    filter: drop-shadow(1px 2px 2px var(--color1))
+}
+
+footer{
+    position: absolute;
+    bottom: 0px;
+    padding: 5px;
+    background-color: black;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: var(--font);
+   
+}
+
+.info:nth-child(1){
+    position: absolute;
+    right: 20px;
+    font-size: 5em;
+}
+
+img{
+    width: 90%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center center;
+}
+
+h1{
+    color: #733612;
+    font-family: var(--font2);
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+p{
+    font-family: var(--font3);
+    padding: 0px 20px 0px;
+    line-height: 30px;
+    color: aliceblue;
+}
+
+span{
+    font-weight: bold;
+    color: black;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--font);
+    background-color: var(--color1);
+    position: relative;
+  
+}
